@@ -1,0 +1,11 @@
+/*
+CSS Name: Example
+Description: This is an example stylesheet
+Author: John Smith
+Version: 1.0
+*/
+.ngg-gallery-thumbnail img, .ngg-gallery-thumbnail img:hover{
+	background-color:black;
+        border:none;
+
+}
