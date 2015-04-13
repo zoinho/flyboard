@@ -3,7 +3,7 @@ Contributors: WPGMaps
 Donate link: http://www.wpgmaps.com
 Tags: google maps, maps, map, map markers, google, google map, wp maps, wp google maps, wp google map, easy map, store locator, map plugin, directions, map directions, google map plugin, routes, polygons, polylines, streetview, location, marker, latitude, longitude, map widget
 Requires at least: 3.5
-Tested up to: 4.0
+Tested up to: 4.1.1
 Stable tag: trunk
 License: GPLv2
 
@@ -31,6 +31,7 @@ The [WP Google Maps Pro Version](http://www.wpgmaps.com/purchase-professional-ve
 * Define your own width, height and zoom level for your Google Map
 * Add animations to your map markers!
 * Store locator functionality
+* Restrict a store locator search by country
 * Add Polygons to your Map
 * Add Polylines / Routes to your map
 * Create a map in less than a 30 seconds!
@@ -40,6 +41,7 @@ The [WP Google Maps Pro Version](http://www.wpgmaps.com/purchase-professional-ve
 * Google Maps Cloud Layer
 * Google Maps Transport Layer
 * Google Maps Weather Layer
+* Set the max zoom level for your map
 * Latest Google Maps API (V3.14, V3.15 & V3.exp)
 
 = Professional Edition =
@@ -64,7 +66,7 @@ The [WP Google Maps Pro Version](http://www.wpgmaps.com/purchase-professional-ve
 Get a free copy of the WP Google Maps Pro version in exchange for translating our plugin!
 
 * English - default
-* Russian
+* Russian (Alexandra Bondareva)
 * German
 * French (Arnaud Thomas)
 * Polish (Michal Kotnowski)
@@ -72,8 +74,13 @@ Get a free copy of the WP Google Maps Pro version in exchange for translating ou
 * Dutch (Jan Wind)
 * Hebrew (Gal Dotan)
 * Danish (Patrick Jepsen)
-* Italian (Tommaso Mori)
+* Italian (Tommaso Mori & Massimo Bregani)
+* Croatian (Sven Kopun)
+* Romanian (Cosmin Stroe)
 * Spanish (Carmelo Villegas Cruz)
+* Portuguese (Jose Antonio Ribeiro)
+* Brazilian Portuguese (Roberto Costa)
+* Lithuanian
 * Czechoslovakian^
 * Swedish^
 
@@ -148,10 +155,46 @@ In order to show your custom Google map on your page or post, simply copy the sh
 
 == Upgrade Notice ==
 
+= 6.1.5 =
+We no longer support timthumb and we have opted to remove it from WP Google Maps. Please update to 6.1.5 to ensure the removal of the timthumb script.
+
 = 6.0.27 =
 Please upgrade your version of WP Google Maps to version 6.0.27 as it includes multiple security improvements.
 
 == Changelog ==
+
+= 6.1.5 - 2015-03-16 - High priority =
+* Timthumb removed
+* New support page added
+* You can now restrict your store locator search by a specific country
+* Bug fix in map editor
+* SSL bug fix
+* Usability improvements when right clicking to add a marker on the map.
+* Russian, Lithuanian and Portuguese translations added
+
+= 6.1.4 2015-02-13 Medium priority =
+* Safari bug fix
+* Fixed issues with map markers containing addresses with single quotes
+* You can now set the max zoom of your google map
+* Translation file updated
+
+= 6.1.3 2015-01-29 Medium priority =
+* IIS server error fix
+* Small map bug fixes
+* Brazilian portuguese language file updated
+* Activation error fixes
+
+= 6.1.2 2015-01-19 Low priority =
+* Code improvements (PHP warnings)
+* New languages added
+* Tested in WordPress 4.1
+
+= 6.1.1 2014-12-19 Low priority =
+* Translation file updates
+* Code improvements
+
+= 6.1.0 2014-12-17 Medium priority =
+* Added an alternative method to pull the marker data
 
 = 6.0.31 2014-11-28 Low priority =
 * Fixed a category bug
@@ -349,4 +392,4 @@ Please upgrade your version of WP Google Maps to version 6.0.27 as it includes m
 * Added SSL bug fixes
 * Fixed a bug that wasnt allowing users to edit the exact location
 
-For more, please view the WP Google Maps website.
+For more, please view the WP Google Maps site

@@ -129,3 +129,4 @@
 2014-12-22 17:06:02: Could not save XML file -> Could not save marker XML file (//wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1
 2014-12-22 17:06:19: Could not save XML file -> Could not save marker XML file (//wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1
 2014-12-22 17:09:32: Could not save XML file -> Could not save marker XML file (//wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1
+2015-04-13 21:11:11: Could not save XML file -> Could not save marker XML file (//wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1

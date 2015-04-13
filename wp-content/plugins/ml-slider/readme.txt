@@ -3,8 +3,8 @@ Contributors: matchalabs
 Tags: wordpress slideshow,seo,slideshow,slider,widget,wordpress slider,image slider,flexslider,flex slider,nivoslider,nivo slider,responsive,responsive slides,coinslider,coin slider,slideshow,carousel,responsive slider,vertical slides
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CQ84KC4X8YKW8
 Requires at least: 3.5
-Tested up to: 4.0
-Stable tag: 3.1.1
+Tested up to: 4.1.1
+Stable tag: 3.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,7 +47,7 @@ Upgrade to [Meta Slider Pro](http://www.metaslider.com/upgrade) to add support f
 
 * YouTube & Vimeo slides
 * HTML slides
-* Layer slides with CSS3 animations
+* Layer slides with CSS3 animations & HTML5 Video backgrounds
 * Dynamic Post Feed/Featured Image Slides (content slider)
 * Custom Themes
 * Thumbnail Navigation
@@ -68,6 +68,8 @@ Upgrade to [Meta Slider Pro](http://www.metaslider.com/upgrade) to add support f
 * Hungarian (thanks to szripio)
 * Croatian
 * Hebrew (thanks to Ahrale)
+* Portuguese (thanks to mauro.mascarenhas)
+* Russian (thanks to asidoryak)
 
 Read more and thanks to:
 
@@ -143,6 +145,24 @@ See www.metaslider.com/documentation/image-cropping/
 6. Administration panel - selecting slides
 
 == Changelog ==
+
+= 3.3.1 [23/03/15] =
+
+* Fix: Remove 'create video playlist' option from Media Library (on Meta Slider page only)
+* Fix: Support for Enhanced Media Library plugin
+* Fix: Return public slide when DOING_AJAX
+* Improvement: Use admin actions to save slideshow settings
+
+= 3.3 [17/02/15] =
+
+* New feature: Smart pad option (for Image Slides & Flex Slider only)
+* Portuguese language files added (thanks to mauro.mascarenhas)
+* Russian language files updated (thanks to asidoryak)
+
+= 3.2.1 [16/12/14] =
+
+* Change: Change slide image functionality backed out
+* Fix: Apply FireFox mobile fix to Flex Slider (github #1110)
 
 = 3.2 [26/11/14] =
 
