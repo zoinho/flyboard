@@ -214,9 +214,7 @@ footer[role="contentinfo"]{
 	height:105px;
 }
 .site-info, footer[role="contentinfo"]{
-	background:rgba(27, 27, 27, 0.5);
-	background-color: rgba(27, 27, 27, 0.5);
-	background-image:none;
+	background:white;
 }
 .site-info{
 	font-family: tahoma, tahoma-w01-regular, tahoma-w02-regular, tahoma-w10-regular, tahoma-w15--regular, tahoma-w99-regular, sans-serif;

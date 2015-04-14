@@ -11,20 +11,13 @@
 ?>
 	</div><!-- #main .wrapper -->
 
-	<footer id="colophon sticky_footer" role="contentinfo">
-		<div class="site-info">
-			ZAPRASZAMY, <br/>
-			CENTRUM FITNESS<br/>
-			Ludowa 6, Kraków (k. Wielickiej)<br/>
-			tel: 731-766-332  <br/>
-			e-mail: info.cfkrakow@gmail.com<br/>
-	<span class="copyright">© 2014 by Łukasz Milik,  all rights reserved.</span>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+	
 
 </div><!-- #page -->
 	
+<footer id="colophon sticky_footer" role="contentinfo">
 
+	</footer><!-- #colophon -->
 
 <?php wp_footer(); ?>
 </body>
