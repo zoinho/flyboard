@@ -1641,10 +1641,7 @@ body{
 		max-width: 960px;
 		max-width: 68.571428571rem;
 	}
-	.site-content {
-		float: left;
-		width: 65.104166667%;
-	}
+	
 	body.template-front-page .site-content,
 	body.attachment .site-content,
 	body.full-width .site-content {

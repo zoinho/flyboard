@@ -32,7 +32,7 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="image_src" href="<?php echo get_stylesheet_directory_uri(); ?>/inc/logo.jpg" />
-<link href='http://fonts.googleapis.com/css?family=Jockey+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,400&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
 <?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
@@ -68,11 +68,7 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
-<?php
-	echo do_shortcode("[metaslider id=46]");
-	?>
-<div id="page" class="hfeed site">
-    
+
 	<header id="masthead" class="site-header" role="banner">
 				<div class="logo-wrapper">
 				
@@ -88,5 +84,12 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
 					<a href="https://www.youtube.com/channel/UCkiTTRjIioYymvLaEEjyyiA" ><span class="social yt"/></a>
 				</div>
 	</header><!-- #masthead -->
+	
+	<?php
+	echo do_shortcode("[metaslider id=46]");
+	?>
+<div id="page" class="hfeed site">
+    
+	
    	
 	<div id="main" class="wrapper">
