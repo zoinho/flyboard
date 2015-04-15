@@ -15,9 +15,11 @@
 -------------------------------------------------------------- */
 /*** Body styles ***/ 
  body,html{
- font-family: arial, helvetica, sans-serif;
- font-size: 10px;	
- background: #3d91df; 
+	font-family: "Open Sans", arial, helvetica, sans-serif;
+	font-size: 10px;	
+	background: url("inc/bg.png"),#3d91df;
+  background-position: center top;
+  background-repeat: no-repeat;
  }
  hr{
 	float: left;
@@ -109,45 +111,36 @@ p{
 	text-indent:0;
 }
 /* Social Icons by  Martz90 http://martz90.deviantart.com/art/Circle-Icons-Pack-371172325 */
-.social-icons{
-	float:left;
-	clear:both;
-}
-.social-icons .social{
-	width:35px;
-	height:35px;
-	margin:10px 10px 0 0;
-	float:left;
-	-moz-transition:all 250ms 50ms ease-in-out;
-	-ms-transition:all 250ms 50ms ease-in-out;
-	-webkit-transition:all 250ms 50ms ease-in-out;
-	transition:all 250ms 50ms ease-in-out;
-	cursor:pointer;
-	display:inline-block;
-}
-.social-icons .fb{
-	background: url('inc/fb.png');
-	background-size:cover;	
-}
-.social-icons .yt{
-	background: url('inc/youtube.png');
-	background-size:cover;
-}
-
-.social-icons .fb:hover{
-	-moz-filter:grayscale(100%);
-	-ms-filter:grayscale(100%);	
-	-webkit-filter:grayscale(100%);	
-	filter:grayscale(100%);	
+header .social-icons{
+	position:relative;
+	width:100%;
+	right:0;
 	
 }
-.social-icons .yt:hover{
-	-moz-filter:grayscale(100%);
-	-ms-filter:grayscale(100%);	
-	-webkit-filter:grayscale(100%);	
-	filter:grayscale(100%);	
+.social-icons ul{
+	position:absolute;
+	right:0;
+	font-size: 3rem;
+	color:black;
+}
+.social-icons li{
+  padding: 1rem;
+  background: white;
+  border-radius: 3rem;
+  margin: 1rem;
+   -moz-transition:all 250ms 0ms ease-in-out;
+	-webkit-transition:all 250ms 0ms ease-in-out;
+	-ms-transition:all 250ms 0ms ease-in-out;
+	transition:all 250ms 0ms ease-in-out;
 }
 
+.social-icons li:hover{
+  padding: 1rem;
+  background: transparent;
+  border-radius: 3rem;
+  margin: 1rem;
+  color:white;
+}
 /*** Logo ***/
 h1.logo {
 	font-family: impact,impact-w01-2010,impact-w02-2010,impact-w10-2010;
@@ -204,42 +197,144 @@ h2.sub-logo{
 	  top: 0;
 	  left: 0;
 	  width: 100%;
-	  height:510px !important;
+	  border-bottom: 2px solid white;
+  	  box-shadow: 0px 6px 150px rgba(0,0,0,0.25);
 }
-#metaslider_46 {
-	height: 600px;
-}
+
 
 /*** Footer ***/
 footer[role="contentinfo"]{
-	height:105px;
+	height:12rem;
+}
+
+footer[role="contentinfo"] a {
+  color: #2e6da7;
 }
 .site-info, footer[role="contentinfo"]{
 	background:white;
+	box-shadow: 0px -6px 150px rgba(0,0,0,0.25);
 }
-.site-info{
-	font-family: tahoma, tahoma-w01-regular, tahoma-w02-regular, tahoma-w10-regular, tahoma-w15--regular, tahoma-w99-regular, sans-serif;
-	font-size:12px;
-	font-size: 1.2rem;
-	line-height:15px;
-	line-height:1.5rem;
+footer ul{
+	display:inline-block;
+}
+footer .contacts{
+	float:left;
+}
+footer .social-icons{
+	float:right;
+}
+footer .contacts li, footer .social-icons li{
+	display:inline-block;
+	color:#2e6da7;
 	text-align:left;
-	padding: 1rem;
+	margin-left: 3rem;
+	background:none;
+}
+footer .social-icons li{
+	margin:0 .5rem;
+	padding:0;
+}
+
+footer .icon-wrapper{
+	  font-size: 2.5rem;
+  background: #2e6da7;
+  border-radius: 3rem;
+  padding: 1.25rem;
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+  -moz-transition:all 250ms 0ms ease-in-out;
+	-webkit-transition:all 250ms 0ms ease-in-out;
+	-ms-transition:all 250ms 0ms ease-in-out;
+	transition:all 250ms 0ms ease-in-out;
+}
+footer .icon-wrapper:hover{
+	background:transparent;
+	color: #2e6da7;
 }
 .copyright{
-	text-align:center;
-	display:block;
-	font-family: 'jockey one', sans-serif;
-	font-size:13px;
-	font-size:1.3rem;
-	letter-spacing:0.7px;
+  text-align: center;
+  font-size: 1rem;
+  color: #2e6da7;
+  width: 100%;
+  clear: both;
+  line-height: normal;
+  display: inline-block;
+  float: left;
+  position: relative;
+  bottom: -15px;
+}
+footer .contacts li a{
+	font-size:1.4rem;
+	margin-left:1rem;
 }
 
 /**** Home page posts ***/
-#content.main article{
-	width:30rem;
-	
+#content.main {
+  margin-top: -10rem;
+  position: relative;
 }
+
+.top_circles{
+	position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  top: -25rem;
+}
+.top_circles li{
+	  width: 22rem;
+  height: 22rem;
+  border: 5px solid white;
+  border-radius: 22rem;
+  background: rgba(0,0,0,0.45);
+  margin: 0 6rem;  
+  display:inline-block;
+}
+ .icon_wrapper{
+	    font-size: 4rem;
+		padding: 1.75rem;
+		display: inline-block;
+		background: white;
+		border-radius: 10rem;
+		color: black;
+}
+.top_circles .description{ 
+	margin-top:1.5rem;
+	width: 90%;
+  display: inline-block;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.top_circles_table{
+	display:table;
+	height:100%;
+}
+.top_circles_cell{
+	  display:table-cell;
+  vertical-align: middle;
+}
+.top_circles ul li{
+		-moz-transition:all 150ms 50ms ease-in-out;
+	-ms-transition:all 150ms 50ms ease-in-out;
+	-webkit-transition:all 150ms 50ms ease-in-out;
+	transition:all 150ms 50ms ease-in-out;
+}
+.top_circles ul li:hover{
+		transform: scale(1.15);
+	}
+
+.top_circles ul li .icon_wrapper{
+		-moz-transition:all 150ms 50ms ease-in-out;
+	-ms-transition:all 150ms 50ms ease-in-out;
+	-webkit-transition:all 150ms 50ms ease-in-out;
+	transition:all 150ms 50ms ease-in-out;
+	}
+.top_circles ul li:hover .icon_wrapper{
+		background:transparent;
+		color:white;
+		font-size:5rem;
+	}
  article.right{
 	position: absolute;
 	left: 140%;
@@ -256,10 +351,7 @@ footer[role="contentinfo"]{
 		text-decoration: none;
 		font-size: 2em;
 		border: 1px solid #ccc;
-		-moz-transition:all 250ms 0ms ease-in-out;
-		-webkit-transition:all 250ms 0ms ease-in-out;
-		-ms-transition:all 250ms 0ms ease-in-out;
-		transition:all 250ms 0ms ease-in-out;
+		
 	}
 	.signButton:hover, .signButton:active{
 		color:#CA2027;
@@ -285,6 +377,7 @@ footer[role="contentinfo"]{
 	text-align:center;
 	text-indent:0;
 	padding:0;
+	text-align:left;
 }
 .entry-content p:first-child{
 	font-size:15px;
@@ -470,6 +563,11 @@ article.format-aside p{
 }
 
 /*** News ***/
+article.format-standard {
+		width:30rem;
+	float:left;
+	margin: 0 1rem;
+}
 
 .single .format-standard .black_box h1{
 	width:40%
@@ -480,20 +578,40 @@ article.format-aside p{
 	margin-left:1em;
 	
 }
+.format-standard .black_box .black_background {
+	position:absolute;
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,0.3);
+	top:0;
+	left:0;
+	border-radius:10rem;
+	-moz-transition:all 250ms 50ms ease-in-out;
+	-ms-transition:all 250ms 50ms ease-in-out;
+	-webkit-transition:all 250ms 50ms ease-in-out;
+	transition:all 250ms 50ms ease-in-out;
+}
 .format-standard .black_box{
-	padding:0 20px;
-	padding:0 2rem;
-		padding-bottom: 15px;
-	padding-bottom:1.5rem;
-	margin: 20px 0;
-	margin: 2rem 0;
+  width: 17.5rem;
+  height: 17.5rem;
+  border-radius: 50rem;
+  border: 3px solid white;
+  overflow: hidden;
+  margin:0 auto;
+  position:relative;
+}
+
+.format-standard .black_box:hover .black_background{
+	background:transparent;
 }
 
 .format-standard .black_box img.wp-post-image.attachment-post-thumbnail{
-	border:none;
+  border:none;
+  height: 100%;
+  width: auto;
+  margin-top: 0rem;
 }
 .format-standard .black_box h1{
-		font-family: "Jockey One", sans-serif;
 		font-size: 48px;
 		font-size: 4.8rem;
 		margin:0;
@@ -510,6 +628,38 @@ article.format-aside p{
 	text-indent:20px;
 	text-align:left;
 	margin-top:30px;
+}
+.format-standard .icon-wrapper{
+	position: absolute;
+	top: 50%;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 10;
+	width: 100%;
+	font-size: 8rem;
+	transform: translateY(-50%);
+	-moz-transition:all 250ms 50ms ease-in-out;
+	-ms-transition:all 350ms 50ms ease-in-out;
+	-webkit-transition:all 350ms 50ms ease-in-out;
+	transition:all 350ms 50ms ease-in-out;
+}
+
+.format-standard .black_box:hover .icon-wrapper{
+	transform:translate(-100%,-50%);
+
+}
+
+.format-standard i:before{
+	content: "\e604";
+	font-family: "icons"
+}
+.format-standard:nth-child(2) i:before{
+	content: "\e603";
+	font-family: "icons"
+}
+.format-standard:nth-child(3) i:before{
+	content: "\e602";
+	font-family: "icons"
 }
 .read-more{
 	width: 100%;
@@ -578,10 +728,7 @@ article.format-aside p{
 		text-decoration: none;
 		font-size: 2em;
 		border: 1px solid #ccc;
-		-moz-transition:all 250ms 0ms ease-in-out;
-		-webkit-transition:all 250ms 0ms ease-in-out;
-		-ms-transition:all 250ms 0ms ease-in-out;
-		transition:all 250ms 0ms ease-in-out;
+		
 	}
 	
 	.logo-wrapper{
@@ -590,8 +737,7 @@ article.format-aside p{
 
 	.main-navigation li a{
 		text-transform:uppercase;
-		font-size:13px;
-		font-size:1.3rem;
+		font-size:1.4rem;
 		text-decoration:none;
 		white-space:nowrap;
 	} 
@@ -663,9 +809,5 @@ article.format-aside p{
 	}
 	
 	
-	
-}
-@media screen and (min-width: 960px) {
-
 	
 }

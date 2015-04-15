@@ -42,6 +42,29 @@ $myposts = new WP_Query( array(
 	</div> -->
 
 	<div id="content" role="main" class="main">
+        <article class="top_circles">
+    <ul>
+        <li>
+            <div class="top_circles_table">
+                <div class="top_circles_cell">
+                    <span class="icon_wrapper">
+                        <i class="icon-shopping-cart"></i>
+                    </span>
+                    <span class="description">kup voucher</span>
+                </div>
+            </div>
+        </li><li>
+            <div class="top_circles_table">
+                <div class="top_circles_cell">  
+                    <span class="icon_wrapper">
+                        <i class="icon-daily-calendar"></i>
+                    </span>
+                    <span class="description">Zarezerwuj termin</span>
+                </div>
+            </div>
+        </li>
+    </ul>
+</article>
 		
 <?php if ( $myposts->have_posts() ) : while ( $myposts->have_posts() ) : $myposts->the_post(); ?>
 

@@ -38,7 +38,7 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
 <?php wp_head(); ?>
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/icons.css" type="text/css" media="screen"/><link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="/wp-content/plugins/easy-contact-forms/easy-contact-forms-forms.1.4.9.js"></script>
 <script>(function() {
   var _fbq = window._fbq || (window._fbq = []);
@@ -80,8 +80,12 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 <div class="social-icons">
-					<a href="https://www.facebook.com/CFKrakow" ><span class="social fb" /></a>
-					<a href="https://www.youtube.com/channel/UCkiTTRjIioYymvLaEEjyyiA" ><span class="social yt"/></a>
+                    <ul>
+                        <li class="social-icon">
+                            <i class="icon-facebook"></i></li>
+                        <li class="social-icon"><i class="icon-youtube"></i></li>
+                    </ul>
+					
 				</div>
 	</header><!-- #masthead -->
 	

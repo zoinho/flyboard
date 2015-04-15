@@ -1681,9 +1681,7 @@ body{
 		line-height:2;
 		text-transform: uppercase;
 		white-space: nowrap;
-		font-size: 13px;
-		font-size: 0.9rem;
-		
+
 	}
 	.main-navigation li a:hover,
 	.main-navigation li a:focus {
