@@ -3,8 +3,8 @@
  * Podstawowa konfiguracja WordPressa.
  *
  * Ten plik zawiera konfiguracje: ustawień MySQL-a, prefiksu tabel
- * w bazie danych, tajnych kluczy, używanej lokalizacji WordPressa
- * i ABSPATH. Więćej informacji znajduje się na stronie
+ * w bazie danych, tajnych kluczy i ABSPATH. Więcej informacji
+ * znajduje się na stronie
  * {@link http://codex.wordpress.org/Editing_wp-config.php Editing
  * wp-config.php} Kodeksu. Ustawienia MySQL-a możesz zdobyć
  * od administratora Twojego serwera.
@@ -64,18 +64,6 @@ define('NONCE_SALT',       'wprowadz tutaj unikatowa fraze');
  * Tylko cyfry, litery i znaki podkreślenia, proszę!
  */
 $table_prefix  = 'wp_';
-
-/**
- * Kod lokalizacji WordPressa, domyślnie: angielska.
- *
- * Zmień to ustawienie, aby włączyć tłumaczenie WordPressa.
- * Odpowiedni plik MO z tłumaczeniem na wybrany język musi
- * zostać zainstalowany do katalogu wp-content/languages.
- * Na przykład: zainstaluj plik de_DE.mo do katalogu
- * wp-content/languages i ustaw WPLANG na 'de_DE', aby aktywować
- * obsługę języka niemieckiego.
- */
-define('WPLANG', 'pl_PL');
 
 /**
  * Dla programistów: tryb debugowania WordPressa.

@@ -15,15 +15,15 @@
 
 </div><!-- #page -->
 	
-<footer id="colophon sticky_footer" role="contentinfo">
+<footer id="colophon sticky_footer" role="contentinfo">  
 	<ul class="contacts">
 		<li>
-			<span class="icon-wrapper"><i class="icon-phone"></i></span>
-			<a href="tel:+48123456">+48 123-456-789</a>
+			
+			<a href="tel:+48123456"><span class="icon-wrapper"><i class="icon-phone"></i></span><span class="contact-info">+48 123-456-789</span></a>
 		</li>
 		<li>
-			<span class="icon-wrapper"><i class="icon-mail"></i></span>
-			<a href="mailto:jakismail@mail.com">hamryszaki@flyboard.pl</a>
+			
+			<a href="mailto:jakismail@mail.com"><span class="icon-wrapper"><i class="icon-mail"></i></span><span class="contact-info">hamryszaki@flyboard.pl</span></a>
 		</li>
 	</ul>	
     <ul class="social-icons">

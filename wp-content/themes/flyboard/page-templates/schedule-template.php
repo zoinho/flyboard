@@ -16,9 +16,7 @@ get_header();
 				
 
 			<?php endwhile; // end of the loop. ?>
-  		<div class="scroll-wrapper " style="">
-	<iframe class="mobileSchedule" src="https://cf-krakow.cms.efitness.com.pl/kalendarz-zajec" width="100%" height="700px" ></iframe>	
-	</div>
+  		
 		</div><!-- #content -->
 </div><!-- #primary -->
 <?php get_footer(); ?>
