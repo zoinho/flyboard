@@ -21,7 +21,7 @@
 <!--<![endif]-->
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta name="viewport" content="width=device-width" />
+ <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property="og:url" content="http://www.cfkrakow.com/" />
 <meta property="og:image" content="http://cfkrakow.nazwa.pl/www/wp-content/themes/cf-krakow/inc/logo.jpg" />
 <meta property="og:title" content="<?php wp_title( '|', true, 'right' ); ?>" />
@@ -38,7 +38,8 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
 <?php wp_head(); ?>
-<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/icons.css" type="text/css" media="screen"/><link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/icons.css" type="text/css" media="all"/>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="/wp-content/plugins/easy-contact-forms/easy-contact-forms-forms.1.4.9.js"></script>
 <script>(function() {
   var _fbq = window._fbq || (window._fbq = []);
@@ -92,6 +93,9 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
 	<?php
 	echo do_shortcode("[metaslider id=46]");
 	?>
+  <div class="mobile-bg">
+    <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/inc/mobile-bg.png" alt="" title="">
+  </div>
 <div id="page" class="hfeed site">
     
 	

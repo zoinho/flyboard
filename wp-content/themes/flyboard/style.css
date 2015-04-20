@@ -192,12 +192,21 @@ h2.sub-logo{
 .main-navigation li a{
 	  position: relative;
 	  top: 50%;
-	  transform: translateY(-50%);
 	  padding: 0 1rem;
 	  width:100%;
+	  transform:translateY(-50%);
 }
 
 /*** SLider ***/
+.mobile-bg{
+	display:none;
+  	border-bottom: 2px solid white;
+  	  box-shadow: 0px 6px 150px rgba(0,0,0,0.25);
+}
+.mobile-bg img{
+	display:block;
+	width:100%;
+}
 .nivoSliderOverall{
 	  z-index: 0;
 	  top: 0;
@@ -254,6 +263,7 @@ footer .icon-wrapper{
 	-webkit-transition:all 250ms 0ms ease-in-out;
 	-ms-transition:all 250ms 0ms ease-in-out;
 	transition:all 250ms 0ms ease-in-out;
+	transform: translateZ(0);
 }
 footer .icon-wrapper:hover{
 	background:transparent;
@@ -644,7 +654,7 @@ article.format-standard {
 	z-index: 10;
 	width: 100%;
 	font-size: 8rem;
-	transform: translateY(-50%);
+	transform: translate3d(0%,-50%,0);
 	-moz-transition:all 250ms 50ms ease-in-out;
 	-ms-transition:all 350ms 50ms ease-in-out;
 	-webkit-transition:all 350ms 50ms ease-in-out;
@@ -652,7 +662,7 @@ article.format-standard {
 }
 
 .format-standard .black_box:hover .icon-wrapper{
-	transform:translate(-100%,-50%);
+	transform: translate3d(-100%,-50%,0);
 
 }
 
@@ -751,6 +761,20 @@ article.format-standard {
 }
 
 @media screen and (max-width: 1100px) {
+	.mobile-bg{
+		display:block;
+	}
+	#metaslider_46{
+		display:none;
+	}
+		.top_circles {
+	  top:-11rem;
+	  position:relative;
+	}
+
+	.top_circles li .description {
+		  display: block;
+		}	
 		.nav-menu {
 		background:none;
 		transform: translate(0%,-1200%);
@@ -786,13 +810,6 @@ article.format-standard {
   position:relative;
   z-index:30;
 	}
-	.top_circles {
-	  top: -20rem;
-	}
-
-	.top_circles li .description{
-		display:none;
-	}
 	#content.main article{
 		margin-top:15em;
 	}
@@ -806,7 +823,7 @@ article.format-standard {
 	}
 	
 	#content.main article {
-  margin-top: 10em;
+  margin-top: 5em;
 }
 	.format-standard .black_box {
   width: 17rem;
@@ -904,5 +921,14 @@ height: 100%;
 @media screen and (max-width: 700px) {
 		.contact-info{
 			display:none;
+		}
+}
+@media screen and (max-width: 400px)  {
+		.nivoSliderOverall{display:none;}
+		.top_circles li .description {
+		  display: block;
+		}	
+		footer .contacts li, footer .social-icons li {
+			margin-left:0;
 		}
 }
