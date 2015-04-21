@@ -19,11 +19,11 @@
 	<ul class="contacts">
 		<li>
 			
-			<a href="tel:+48123456"><span class="icon-wrapper"><i class="icon-phone"></i></span><span class="contact-info">+48 123-456-789</span></a>
+			<a href="tel:+48794000718"><span class="icon-wrapper"><i class="icon-phone"></i></span><span class="contact-info">+48 794-000-718</span></a>
 		</li>
 		<li>
 			
-			<a href="mailto:jakismail@mail.com"><span class="icon-wrapper"><i class="icon-mail"></i></span><span class="contact-info">hamryszaki@flyboard.pl</span></a>
+			<a href="mailto:superflykrakow@gmail.com"><span class="icon-wrapper"><i class="icon-mail"></i></span><span class="contact-info">superflykrakow@gmail.com</span></a>
 		</li>
 	</ul>	
     <ul class="social-icons">

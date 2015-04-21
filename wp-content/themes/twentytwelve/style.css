@@ -1905,14 +1905,3 @@ color:white;
 	
 }
 
-div.ufo-form span.ufo-cell-left label,div.ufo-form span.ufo-cell-left label, div.ufo-form span.ufo-cell-right label, div.ufo-form span.ufo-cell-center label, div.ufo-form div.ufo-cell-left label, div.ufo-form div.ufo-cell-right label, div.ufo-form div.ufo-cell-center label{
-font-size: 16px;
-font-size: 1.125rem;
-font-weight: 200;
-}
-div.ufo-form span.ufo-cell-center input, div.ufo-form span.ufo-cell-center textarea, div.ufo-form span.ufo-cell-center select, div.ufo-form div.ufo-cell-center input, div.ufo-form div.ufo-cell-center textarea, div.ufo-form div.ufo-cell-center select
-{
-background: rgba(255,255,2500,0.05);
-border: 1px solid #525252;
-color:white;
-}
