@@ -191,6 +191,7 @@ h2.sub-logo{
 }
 .main-navigation li {
 	height: 100%;
+	position: initial;
 }
 .main-navigation li.current_page_item {
 	border-bottom: 2px solid white;
@@ -206,6 +207,25 @@ h2.sub-logo{
 	  transform:translateY(-50%);
 }
 
+.main-navigation li ul{
+	  padding: 0;
+  	height: auto;
+  	width: inherit;
+}
+.main-navigation li ul li{
+  background: rgba(0,0,0,0.35);
+  display: block;
+  width: 100%;
+  padding: 1rem 0;
+}
+.main-navigation li ul li a {
+	  background: transparent;
+	padding: 1.5rem;
+  font-size: 1.25rem;
+  text-align: left;
+  width: auto;
+  display: block;
+}
 /*** SLider ***/
 .mobile-bg{
 	display:none;
