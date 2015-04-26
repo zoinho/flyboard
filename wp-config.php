@@ -25,7 +25,7 @@ define('WP_CACHE', true); // Added by W3 Total Cache
 
 // ** Ustawienia MySQL-a - możesz uzyskać je od administratora Twojego serwera ** //
 /** Nazwa bazy danych, której używać ma WordPress */
-define('DB_NAME', 'flyboard');
+define('DB_NAME', 'cfkrakow');
 
 /** Nazwa użytkownika bazy danych MySQL */
 define('DB_USER', 'root');
