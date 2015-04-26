@@ -136,3 +136,14 @@
 2015-04-14 22:33:22: Could not save XML file -> Could not save marker XML file (//wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1
 2015-04-14 22:35:11: Could not save XML file -> Could not save marker XML file (//wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1
 2015-04-15 11:48:47: Could not save XML file -> Could not save marker XML file (//wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1
+2015-04-16 13:20:15: Could not save XML file -> Could not save marker XML file (//wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1
+2015-04-21 12:54:11: Could not save XML file -> Could not save marker XML file (//wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1
+2015-04-21 12:54:42: Could not save XML file -> Could not save marker XML file (//wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1
+2015-04-21 12:59:39: Could not save XML file -> Could not save marker XML file (//wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1
+2015-04-21 13:03:35: Could not save XML file -> Could not save marker XML file (//wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1
+2015-04-21 13:05:15: Could not save XML file -> Could not save marker XML file (//wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1
+2015-04-21 13:05:50: Could not save XML file -> Could not save marker XML file (//wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1
+2015-04-21 13:07:36: Could not save XML file -> Could not save marker XML file (//wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1
+2015-04-21 13:12:21: Could not save XML file -> Could not save marker XML file (//wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1
+2015-04-21 13:13:11: Could not save XML file -> Could not save marker XML file (//wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1
+2015-04-24 11:28:53: Could not save XML file -> Could not save marker XML file (//wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1

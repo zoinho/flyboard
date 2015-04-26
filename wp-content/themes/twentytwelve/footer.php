@@ -17,13 +17,7 @@
 ?>
 </div><!-- #page -->
 	<footer id="colophon sticky_footer" role="contentinfo">
-		<div class="site-info">
-			<span class="card_accepted">Akceptujemy karty:</span>
-		<span class="benefit multisport"></span>
-		<span class="benefit oksystems"></span>
-		<span class="benefit fitprofit"></span>
 		
-		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 
 

@@ -44,6 +44,7 @@
 .DOPBookingSystem_Navigation{
     background-color: #ededed;
     -webkit-border-radius: 3px;
+
     -webkit-border-radius: 3px;
     border-radius: 3px;
     margin: 0;
@@ -168,8 +169,10 @@
 }
 
 .DOPBookingSystem_Month{
+
     background: #eeeeee;
     margin: 10px 0 0 0;
+
     padding: 5px;
 }
 
@@ -739,8 +742,10 @@
 /*********************************************************************** Hour */ 
 
 .DOPBookingSystem_Hours{
+
     background: #eeeeee;
     padding: 0 5px 5px 5px;
+
 }
 
 .DOPBookingSystem_Hour{
@@ -1227,6 +1232,8 @@
     margin: 0;
     padding: 5px;
     width: 218px;
+        display:block ;
+
 }
 
 .DOPBookingSystem_Sidebar .section-item input[type=submit]:hover{

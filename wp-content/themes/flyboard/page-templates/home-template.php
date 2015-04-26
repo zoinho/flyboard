@@ -46,15 +46,6 @@ $myposts = new WP_Query( array(
     <ul>
         <li>
             <div class="top_circles_table">
-                <div class="top_circles_cell">
-                    <span class="icon_wrapper">
-                        <i class="icon-shopping-cart"></i>
-                    </span>
-                    <span class="description">kup voucher</span>
-                </div>
-            </div>
-        </li><li>
-            <div class="top_circles_table">
                 <div class="top_circles_cell">  
                     <span class="icon_wrapper">
                         <i class="icon-daily-calendar"></i>
