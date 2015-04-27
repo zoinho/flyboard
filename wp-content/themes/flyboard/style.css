@@ -79,12 +79,15 @@ img.size-full, img.size-large, img.header-image, img.wp-post-image{
 	z-index:10;
 }
 
-.logo-wrapper {
-	float:left;
-	color:white;
-}
-.logo-wrapper h1{
-	color:white;
+
+.logo-wrapper{
+	  display: block;
+	  width: 28rem;
+	  position: absolute;
+	  top: -1.5rem;
+	  left: 3rem;
+	  padding: 2rem;
+	  z-index:31;
 }
 h1, h2, h3, h4, h5, h6{
 	float:left;
@@ -180,7 +183,7 @@ h2.sub-logo{
 }
 /*** Menu ***/
 .nav-menu {
-  height: 60px;
+  height: 8rem;
   top: 0;
   left: 0;
   width: 100%;
@@ -211,12 +214,14 @@ h2.sub-logo{
 	  padding: 0;
   	height: auto;
   	width: inherit;
+  	  top: 8rem;
+
 }
 .main-navigation li ul li{
   background: rgba(0,0,0,0.35);
   display: block;
   width: 100%;
-  padding: 1rem 0;
+	height: 6rem
 }
 .main-navigation li ul li a {
 	  background: transparent;
@@ -225,6 +230,7 @@ h2.sub-logo{
   text-align: left;
   width: auto;
   display: block;
+  height:100%;
 }
 /*** SLider ***/
 .mobile-bg{
@@ -758,6 +764,10 @@ article.format-standard {
 
 /*** Media Queries ***/
 @media screen and (max-width: 1366px) {
+.logo-wrapper {
+	width: 19rem;
+}
+
 	.top_circles li{
 		width:15rem;
 		height:15rem;
@@ -801,6 +811,11 @@ article.format-standard {
 }
 
 @media screen and (max-width: 1100px) {
+
+.main-navigation li ul {
+
+  top: 22.7rem;
+}
 	.mobile-bg{
 		display:block;
 	}
@@ -825,8 +840,7 @@ article.format-standard {
 	}
 	.main-navigation ul.nav-menu.toggled-on{
 		transform: translate(0%,0%);
-
-	}
+}
 	.main-navigation {
 	  position: absolute;
  	 z-index: 30;
@@ -869,9 +883,7 @@ article.format-standard {
   width: 17rem;
   height: 17rem;
 }
-	.logo-wrapper{
-		float:none;
-	}
+	
 	.main-navigation li {
 height: 100%;
   width: 100%;
@@ -961,6 +973,52 @@ height: 100%;
 		.contact-info{
 			display:none;
 		}
+		
+		.main-navigation li ul {
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 100%;
+		z-index: 1;
+		height: 1px;
+		width: 1px;
+		overflow: hidden;
+		clip: rect(1px, 1px, 1px, 1px);
+			top: 22.7rem;
+	}
+	.main-navigation li ul ul {
+		top: 0;
+		left: 100%;
+	}
+	.main-navigation ul li:hover > ul,
+	.main-navigation ul li:focus > ul,
+	.main-navigation .focus > ul {
+		border-left: 0;
+		clip: inherit;
+		overflow: inherit;
+		height: inherit;
+		width: inherit;
+	
+	}
+	.main-navigation li ul li a {
+	  display: block;
+  font-size: 1rem;
+  white-space: normal;
+	}
+	
+	.main-navigation li ul li a:hover,
+	.main-navigation li ul li a:focus {
+		background: #e3e3e3;
+		color: #444;
+	}
+	.main-navigation .current-menu-item > a,
+	.main-navigation .current-menu-ancestor > a,
+	.main-navigation .current_page_item > a,
+	.main-navigation .current_page_ancestor > a {
+color:white;
+
+	}
+	
 }
 @media screen and (max-width: 400px)  {
 		.nivoSliderOverall{display:none;}

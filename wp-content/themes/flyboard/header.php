@@ -71,10 +71,9 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
 
 
 	<header id="masthead" class="site-header" role="banner">
-				<div class="logo-wrapper">
-				
-				
-				</div>
+				<a href="http://www.google.pl" title="logo">
+					<img class="logo-wrapper" src="<?php echo get_bloginfo('template_directory'); ?>/inc/logo.png" alt="" />
+				</a>
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<h3 class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></h3>
 			<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
