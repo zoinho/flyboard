@@ -599,11 +599,14 @@ article.format-aside p{
 	border: 1px solid white;
 }
 .ufo-form-submit-success, div.ufo-form .ufo-form-submit-success{
-	font-size: 27px;
-	color: #CA2027;
-	font-weight: 200;
-	text-transform: uppercase;
-	background-color:transparent !important;
+	  font-size: 27px;
+	  color: White;
+	  text-transform: uppercase;
+	  background-color: transparent !important;
+	  width: 100%;
+	  position: absolute;
+	  font-weight: bold;
+	  bottom: 35rem;
 }
 div.ufo-form span.ufo-cell-left label,div.ufo-form span.ufo-cell-left label, div.ufo-form span.ufo-cell-right label, div.ufo-form span.ufo-cell-center label, div.ufo-form div.ufo-cell-left label, div.ufo-form div.ufo-cell-right label, div.ufo-form div.ufo-cell-center label{
 font-size: 16px;
