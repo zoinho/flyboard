@@ -883,6 +883,7 @@ text-indent: 40px;
 .entry-content ol,
 .comment-content ol {
 	list-style: decimal outside;
+	float:left;
 }
 .entry-content li,
 .comment-content li,
