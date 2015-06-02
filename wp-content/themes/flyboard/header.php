@@ -69,7 +69,8 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
-
+	<div id="wrapper">
+	<div id="container">
 	<header id="masthead" class="site-header" role="banner">
 				<a href="http://www.google.pl" title="logo">
 					<img class="logo-wrapper" src="<?php echo get_bloginfo('template_directory'); ?>/inc/logo.png" alt="" />
@@ -81,9 +82,12 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
 		</nav><!-- #site-navigation -->
 <div class="social-icons">
                     <ul>
-                        <li class="social-icon">
-                            <i class="icon-facebook"></i></li>
-                        <li class="social-icon"><i class="icon-youtube"></i></li>
+                        <li >
+                        <span class="social-icon">
+                        <a href="https://www.facebook.com/pages/SuperFly-Krak%C3%B3w/490903251074068?fref=ts">
+                            <i class="icon-facebook"></i>
+                            </span></a></li>
+                        <li><span class="social-icon"><i class="icon-youtube"></i></span></li>
                     </ul>
 					
 				</div>
@@ -92,9 +96,7 @@ window._fbq.push(['track', 'PixelInitialized', {}]);
 	<?php
 	echo do_shortcode("[metaslider id=46]");
 	?>
-  <div class="mobile-bg">
-    <img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/inc/mobile-bg.png" alt="" title="">
-  </div>
+
 <div id="page" class="hfeed site">
     
 	

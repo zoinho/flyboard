@@ -23,6 +23,7 @@
 	background: url("inc/bg.png"),#3d91df;
   background-position: center top;
   background-repeat: no-repeat;
+  height: 100%;
  }
  hr{
 	float: left;
@@ -69,7 +70,13 @@ img.size-full, img.size-large, img.header-image, img.wp-post-image{
 .dataTables_wrapper{
 	width:100%
 }
-
+#wrapper {
+min-height:100%;
+}
+#container{
+	overflow:auto;
+	padding-bottom: 120px;
+}
 /*** Header styles ***/
 .site-header {
 	position: absolute;
@@ -138,6 +145,7 @@ header .social-icons{
 	right:0;
 	font-size: 3rem;
 	color:black;
+	list-style:none;
 }
 .social-icons li{
   padding: 1rem;
@@ -154,6 +162,14 @@ header .social-icons{
   background: transparent;
   border-radius: 3rem;
   color:white;
+}
+.social-icons li a {
+	text-decoration: none;
+	color:black;
+}
+
+.social-icons li:hover a {
+	color:white;
 }
 /*** Logo ***/
 h1.logo {
@@ -255,6 +271,10 @@ h2.sub-logo{
 /*** Footer ***/
 footer[role="contentinfo"]{
 	height:12rem;
+	position: relative;
+  margin-top: -120px;
+  height: 120px;
+  clear: both;
 }
 
 footer[role="contentinfo"] a {
@@ -332,11 +352,11 @@ footer .contacts li a{
   margin: 0 auto;
   width: 100%;
   text-align: center;
-  top: -25rem;
+  top: -20rem;
 }
 .top_circles li{
-	  width: 22rem;
-  height: 22rem;
+	  width: 18rem;
+  height: 18rem;
   border: 5px solid white;
   border-radius: 22rem;
   background: rgba(0,0,0,0.45);
@@ -777,7 +797,7 @@ article.format-standard {
 
 	}
 	.top_circles {
-		top:-28rem;
+		top:-20rem;
 	}
 
 	.top_circles li .description{
@@ -793,6 +813,7 @@ article.format-standard {
   text-align: center;
   bottom: -8rem;
   left: -6rem;
+  display:none;
 	}
 	.top_circles_table {
 		width:100%;
@@ -819,6 +840,9 @@ article.format-standard {
 
   top: 22.7rem;
 }
+.main-navigation li ul li {
+	background: black;
+}
 	.mobile-bg{
 		display:block;
 	}
@@ -834,6 +858,7 @@ article.format-standard {
 		  display: block;
 		}	
 		.nav-menu {
+		margin:0;
 		background:none;
 		transform: translate(0%,-1200%);
 		-moz-transition:all 250ms 50ms ease-in-out;
@@ -843,6 +868,7 @@ article.format-standard {
 	}
 	.main-navigation ul.nav-menu.toggled-on{
 		transform: translate(0%,0%);
+		margin:0;
 }
 	.main-navigation {
 	  position: absolute;
@@ -871,7 +897,8 @@ article.format-standard {
 		margin-top:15em;
 	}
 	#content.main article, #content.main{
-		width:100%
+		width:100%;
+		margin-top:22rem;
 	}
 	#content.main article.right{
 		top: -9em;
@@ -1021,6 +1048,9 @@ height: 100%;
 color:white;
 
 	}
+	.logo-wrapper{
+	display:none;
+	}
 	
 }
 @media screen and (max-width: 400px)  {
@@ -1031,4 +1061,5 @@ color:white;
 		footer .contacts li, footer .social-icons li {
 			margin-left:0;
 		}
+		
 }

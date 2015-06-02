@@ -14,7 +14,8 @@
 	
 
 </div><!-- #page -->
-	
+	</div><!-- #content -->
+	</div><!-- #wrapper -->
 <footer id="colophon sticky_footer" role="contentinfo">  
 	<ul class="contacts">
 		<li>
@@ -28,7 +29,7 @@
 	</ul>	
     <ul class="social-icons">
         <li >
-            <span class="icon-wrapper"><i class="icon-facebook"></i></span>
+            <a href="https://www.facebook.com/pages/SuperFly-Krak%C3%B3w/490903251074068?fref=ts"><span class="icon-wrapper"><i class="icon-facebook"></i></span></a>
         </li>
         <li>
         	<span class="icon-wrapper"><i class="icon-youtube"></i></span>
