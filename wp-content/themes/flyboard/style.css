@@ -377,6 +377,7 @@ footer .contacts li a{
   display: inline-block;
   font-size: 2rem;
   text-transform: uppercase;
+  color:white;
 }
 .top_circles_table{
 	display:table;

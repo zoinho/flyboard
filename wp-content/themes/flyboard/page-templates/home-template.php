@@ -45,14 +45,21 @@ $myposts = new WP_Query( array(
         <article class="top_circles">
     <ul>
         <li>
+             <a href="/rezerwacja/" title="rezerwacja">
             <div class="top_circles_table">
-                <div class="top_circles_cell">  
+               
+                    <div class="top_circles_cell">  
                     <span class="icon_wrapper">
                         <i class="icon-daily-calendar"></i>
                     </span>
-                    <span class="description">Zarezerwuj termin</span>
+                    
+                        <span class="description">Zarezerwuj termin</span>
+                    
                 </div>
+                
             </div>
+            </a>
+            
         </li>
     </ul>
 </article>
